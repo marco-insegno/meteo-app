@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.body{
+    background: rgb(100, 111, 103);
+    color: rgb(251, 152, 3);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.h1{
+    margin: 30px;
+}
+
+.label{
+    margin-bottom: 15px;
+}
+
+.input{
+    font-family: 'Ubuntu', sans-serif;
+    border: 1px solid #000;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    width: 500px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .input{
+        width: 80%;
+    }
+}
+
+.buttonGet{
+    font-family: 'Ubuntu', sans-serif;
+    margin:15px;
+    padding: 15px 30px;
+    font-size: 0.8rem;
+    border: 2px solid rgb(251, 152, 3);
+    border-radius: 30px;
+    background:#000;
+    color: rgb(251, 152, 3);
+    font-weight: bolder;
+}
+
+.buttonGet:hover, .buttonReset{
+    background:rgb(251, 152, 3);
+    color:#000;
+}
+
+.buttonReset:hover{
+    background: #000;
+    color: rgb(251, 152, 3);
+    border: 2px solid rgb(251, 152, 3);
+}
+
+.temp-restituita{
+    margin: 30px;
+    font-size: 2.2rem;
+    font-weight: bolder;
+}
+
+p#citta{
+    text-align: center;
+}
